@@ -87,7 +87,7 @@ function changeCol()
 
 function getCellElement(row, col)
 {
-    return $("#board")[0].rows[row].cells[col];
+    return $("#board")[0].rows[row].columns[col];
 }
 
 function changeCircleColor(row, col)
