@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connect 4 - PROFSWD</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="application.css" type="text/css" medial="all"/>
+		<script src='/assets/javascripts/application.js'></script> -->
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	</head>
+	<body>
+		<h1>CONNECT FOUR</h1>
+		<table><tr><td>
+			<div class="gamecontainer">
+				<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" onclick="drop(0)"></button>
+            	</div>
+				<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" onclick="drop(1)"></button>
+            	</div>
+            	<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" nclick="drop(2)"></button>
+            	</div>
+            	<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" nclick="drop(3)"></button>
+           		</div>
+           		<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" nclick="drop(4)"></button>
+            	</div>
+            	<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" nclick="drop(5)"></button>
+            	</div>
+            	<div class="columncontainer">
+                	<div class="column"></div><br>
+                	<button type = "button" class="button" nclick="drop(6)"></button>
+            	</div>
+			</div>
+		</td><td>
+			<div class="displaycontainer">
+				<h4 class ="display">Player:</h4>
+				<div>
+					<div class="token player2"></div>
+				</div>
+				<h2 class="display win">Winner!</h2>
+				<h3 class="dsiplay win">Game over!</h3>
+			</div>
+			<div>
+				 <p class="hint">Click on the columnt<br>where you want to drop your token!</p>
+            </div><br>
+            <button type = "button">Reset!</button>
+        </td></tr></table>
+        
+	</body>
+</html>
+
+
