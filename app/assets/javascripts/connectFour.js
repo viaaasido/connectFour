@@ -22,6 +22,8 @@ function dropAt(index)
             alert("BLUE WINS! ONE BIG FIGHT");
         else
             alert("GREEN WINS! ANIMO");
+
+        reset();
     }
     //change player (check how many turns)
     changeCol();
